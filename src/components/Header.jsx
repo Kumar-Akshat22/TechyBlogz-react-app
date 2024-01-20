@@ -10,7 +10,7 @@ function Header() {
 
       <div className='w-full mx-auto flex items-center justify-evenly p-2 head'>
         <header>
-            <h1 className='text-2xl md:text-3xl font-bold uppercase title'>Techy Blogs</h1>
+            <h1 className='text-2xl md:text-3xl font-bold uppercase title'>Techy Blogz</h1>
         </header>
         <div className='flex flex-row-reverse items-center gap-x-3'>
           
