@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+
+    --cyanvariant :rgba(66, 234, 234, 0.603);
+    --whitevariant : rgba(255, 255, 255, 0.731);
+}
+#Light{
+
+    background-color: white;
+}
+
+#Dark{
+
+    background-color: black;
+
+}
+
+#Light .head{
+
+    background-color: white;
+
+}
+
+#Dark .head{
+
+    background-color: #121212;
+    border-style: none;
+
+}
+
+#Dark .title{
+    color: white;
+}
+
+#Dark .togglebtnlabel{
+
+    color: white;
+}
+
+#Dark .footer{
+
+    background-color: #121212;
+    border-style: none;
+    
+    
+}
+
+#Dark .btnPrev{
+
+    background-color: #03DAC5;
+    color: black;
+    border-style: none;
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+#Dark .btnPrev:hover{
+
+    background-color: black;
+    color: white;
+}
+
+#Dark .btnNext{
+
+    background-color: #03DAC5;
+    color: black;
+    border-style: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#Dark .btnNext:hover{
+
+    background-color: black;
+    color: white;
+}
+
+#Dark .btnBack{
+    
+    background-color: #121212;
+    color: white;
+    border-style: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#Dark .pageTracker{
+
+    color: white;
+
+}
+
+#Dark .postTitle{
+
+    color: white;
+}
+
+#Dark .postTitle:hover{
+
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+#Dark .categoryDescription{
+
+    color: white;
+}
+
+#Dark .postBy{
+
+    color: var(--whitevariant);
+}
+
+#Dark .postDate{
+
+    color: var(--whitevariant);
+}
+
+#Dark .postContent{
+
+    color: var(--whitevariant);
+}
+
+#Dark .postTags{
+
+    color: rgba(255, 255, 255, 0.651);
+}
+
+#Dark .spinner{
+
+    color: white;
+}
+
+#Light .blogCard{
+
+    background-color: #f5f5f5f5;
+    padding: 20px 35px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+#Light .blogCard:hover{
+
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: drop-shadow();
+}
+
+#Dark .blogCard{
+
+    background-color: #121212;
+    padding: 20px 35px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#Dark .blogCard:hover{
+
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: drop-shadow();
+}
