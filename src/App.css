@@ -107,6 +107,11 @@ body {
     color: white;
 }
 
+#Dark .relatedBlogs{
+
+    color: white;
+}
+
 #Dark .postTitle:hover{
 
     text-decoration: underline;

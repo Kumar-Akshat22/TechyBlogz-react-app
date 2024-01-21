@@ -60,7 +60,7 @@ function BlogPage() {
                     ) : blog ? (
                         <div>
                             <BlogDetails post={blog} />
-                            <h2 className="mt-9 font-bold text-3xl mb-7">Related Blogs</h2>
+                            <h2 className="mt-9 font-bold text-3xl mb-7 relatedBlogs">Related Blogs</h2>
                             {relatedBlogs.map((post) => (
                                 <div key={post.id} className="">
                                     <BlogDetails post={post} />
