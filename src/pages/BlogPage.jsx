@@ -62,7 +62,7 @@ function BlogPage() {
                             <BlogDetails post={blog} />
                             <h2 className="mt-9 font-bold text-3xl mb-7 relatedBlogs">Related Blogs</h2>
                             {relatedBlogs.map((post) => (
-                                <div key={post.id} className="">
+                                <div key={post.id} className="m-6">
                                     <BlogDetails post={post} />
                                 </div>
                             ))}
