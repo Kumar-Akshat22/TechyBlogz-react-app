@@ -160,8 +160,7 @@ body {
 #Light .blogCard:hover{
 
     cursor: pointer;
-    transform: scale(1.1);
-    filter: drop-shadow();
+    
 }
 
 #Dark .blogCard{
@@ -175,6 +174,5 @@ body {
 #Dark .blogCard:hover{
 
     cursor: pointer;
-    transform: scale(1.1);
-    filter: drop-shadow();
+    
 }
