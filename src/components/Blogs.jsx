@@ -8,7 +8,7 @@ function Blogs() {
 
     //Consume the context API
     const { posts , loading } = useContext(AppContext);
-    
+    console.log(posts);
     return (
         <div className='w-full min-h-screen max-w-[680px] py-8 flex flex-col gap-y-11 mx-auto mt-[0px] mb-[40px]'>
             {

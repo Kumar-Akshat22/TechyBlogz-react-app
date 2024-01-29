@@ -5,7 +5,7 @@ function TagPageDescription() {
 
     const navigation = useNavigate();
     const location = useLocation();
-    const tag = location.pathname.split("/").at(-1).replace("-"," ");
+    const tag = location.pathname.split("/").at(-1).replaceAll("-"," ");
 
   return (
     <div className='flex items-center gap-2 mt-6 ml-2'>
