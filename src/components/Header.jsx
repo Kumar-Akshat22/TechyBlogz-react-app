@@ -1,11 +1,10 @@
 import React, { useContext } from "react";
 import Switch from "react-switch";
 import { AppContext } from "../context/AppContext";
-// import sun from '../../public/sun.png'
 import { FaMoon, FaSun } from "react-icons/fa";
 
 function Header() {
-  const { theme, setTheme, clickHandler } = useContext(AppContext);
+  const { theme, clickHandler } = useContext(AppContext);
   return (
     <div className="w-full drop-shadow-md" id={theme}>
       <div className="w-full mx-auto flex items-center justify-evenly p-2 head">
@@ -15,9 +14,7 @@ function Header() {
           </h1>
         </header>
         <div className="flex flex-row-reverse items-center gap-x-3">
-          {/* <label htmlFor="togglebtn" className="togglebtnlabel">
-            {theme === "Light" ? "Light Mode" : "Dark Mode"}
-          </label> */}
+          
           <Switch
           className="relative"
             id="togglebtn"
